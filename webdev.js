@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var cardBodies = document.querySelectorAll(".card-body");
+    
 
     cardBodies.forEach(function(cardBody) {
         var cardTitle = cardBody.querySelector(".card-title");
