@@ -1,116 +1,129 @@
+.Web-App-Development-Service-layout{
+  width: 100%;
+  height: auto;
+}
+.Web-App-Development-Service-col1{
+  width: 100%;
+  height: auto;
+}
+.Web-App-Development-Service-header{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+.Web-App-Development-Service-heading{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 51px;
+  font-weight: 600;
+  line-height: 70.39px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.Web-App-Development-Service-Leverage-cutting-edge{
+  width: 100%;
+  height: auto;
+}
+.Web-App-Development-Service-para1{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.14px;
+  text-align: left;
+  color: rgba(65, 64, 66, 1);
+  margin-top: 50px;
+}
+.Web-App-Development-Service-develop-scalable{
+  width: 100%;
+  height: auto;
+}
+.Web-App-Development-Service-para2{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(103, 105, 104, 1);
+  margin-top: 18px;
+}
+.Web-App-Development-Service-button{
+  width: 100%;
+  height: auto;
+}
+.Web-App-Development-Service-mainimage{
+  width: 100%;
+  height: auto;
+}
+.Web-App-Development-Service-button button{
+  background: linear-gradient(90deg, #248B97 0%, #2CA068 100%);
+  width: 227px;
+  height: 42px;
+  padding: 0px 21px 0px 21px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.63px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
 
-.Web_App_Development_Service_layout{
-    width: 100%;
-    height: auto;
-  }
-.Web_App_Development_Service_header{
-    width: 540px;
-    height: 140px;
-    gap: 0px;
-    opacity: 0px;
-}
-.Web_App_Development_Service_heading{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 70.39px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
-}
-.Web_App_Development_Service_section1{
-    margin-top: 50px;
-}
-.Web_App_Development_Service_paragraph1{
-    width: 570px;
-    height: 50px;
-    margin-top: 50px;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 25.14px;
-    text-align: left;
-    color: rgba(65, 64, 66, 1);
-}
-.Web_App_Development_Service_paragraph2{
-    width: 532px;
-    height: 66px;
-    margin-top: 18px;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: rgba(103, 105, 104, 1);
-}
-.Web_App_Development_Service_button button{
-    width: 230px;
-    height: 42px;
-    background: linear-gradient(90deg, #248B97 0%, #2CA068 100%);
-    margin-top: 40px;
-    border-radius: 8px;
+@media screen and (max-width: 767px) {
+  .Web-App-Development-Service-layout {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    border: none;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22.63px;
-    text-align: left;
-    color: rgba(255, 255, 255, 1);
-    padding: 0px 21px 0px 21px;
-}
+  }
+  .Web-App-Development-Service-col1 {
+    text-align: center;
+  }
 
-.Web_App_Development_Service_image{
+  .Web-App-Development-Service-header,
+  .Web-App-Development-Service-Leverage-cutting-edge,
+  .Web-App-Development-Service-develop-scalable,
+  .Web-App-Development-Service-button,
+  .Web-App-Development-Service-mainimage {
     width: 100%;
-    height: auto;
+  }
+  .Web-App-Development-Service-heading,
+  .Web-App-Development-Service-para1,
+  .Web-App-Development-Service-para2,
+  .Web-App-Development-Service-button button {
+    text-align: center;
+  }
+  .Web-App-Development-Service-heading{
+      width: 100%;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 45.25px;
+  }
+  .Web-App-Development-Service-para1{
+      width: 100%;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20.11px;
+  }
+  .Web-App-Development-Service-para2{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      width: 100%;
+  }
+  .Web-App-Development-Service-button button{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 20.11px;
+      text-align: center;
+  }
 }
 
-@media (min-width: 320px) and (max-width: 767.98px){
-    
-    .Web_App_Development_Service_section1 {
-        width: 100% !important;
-        height: auto;
-        text-align: center;
-    }
-    .Web_App_Development_Service_image {
-        margin-top: 20px; /* Add margin top to the image */
-    }
-    .Web_App_Development_Service_layout{
-        width: 100% !important;
-        height: auto;
-      }
-    .Web_App_Development_Service_header{
-        width: 100%;
-    }
-    .Web_App_Development_Service_heading{
-        width: 100%;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 45.25px;
-        text-align: center;
-    }
-    .Web_App_Development_Service_paragraph1{
-        margin-top: 30px;
-        width: 100%;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 20.11px;
-        text-align: center;
-    }
-    .Web_App_Development_Service_paragraph2{
-        width: 100%;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 22px;
-        text-align: left;
-        margin-top: 50px;
-    }
-    .Web_App_Development_Service_button{
-        margin-top: 50px;
-    }
-}
 
 /*section1==============================================================*/
 .Web_App_Development_Service_section2layout{
@@ -251,7 +264,7 @@
 .section2card3,
 .section2card4,
 .section2card5 {
-    transition: background-color 1s ease;
+    transition: background-color 0.3s ease;
 }
 
 .section2card1 .section2_card-title,
@@ -264,7 +277,7 @@
 .section2card3 .section2line,
 .section2card4 .section2line,
 .section2card5 .section2line {
-    transition: color 0.8s ease;
+    transition: color 0.3s ease;
 }
 
 .section2card1:hover .section2_card-title,
@@ -313,6 +326,11 @@
     .section2_card-body p {
         display: block;
     }
+    .Web_App_Development_Service_section2cardslayout{
+      width: 100%;
+    }
+
+    
 
     /* Reset styles for hover effects */
     .section2card1:hover .section2_card-title,
@@ -334,13 +352,13 @@
         color: rgba(255, 255, 255, 1);
         margin-top: 0;
     }
-
     
     .section2card1  {
         width: 100%; /* Adjust margin as needed */
         margin-left: 0;
         height: auto;
         border: 2px solid rgba(233, 233, 233, 1);
+        padding: 10px;
     }
     .section2card2  {
         width: 100%; /* Adjust margin as needed */
@@ -408,7 +426,6 @@
     }
     .section2line{
         width: 132px;
-        margin-left: 24px;
     }
     .section2_paragraph{
         width: 100%;
