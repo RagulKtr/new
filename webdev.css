@@ -420,7 +420,6 @@ text-align: left;
       margin: auto;
   }
 
-    
 
     /* Reset styles for hover effects */
     .section2card1:hover .section2_card-title,
@@ -513,9 +512,11 @@ text-align: left;
         font-weight: 600;
         line-height: 25.14px;
         text-align: left;
+        margin-left: 10px;
     }
     .section2line{
         width: 132px;
+        margin-left: 10px;
     }
     .section2_paragraph{
         width: 100%;
@@ -523,6 +524,7 @@ text-align: left;
         font-weight: 400;
         line-height: 22px;
         text-align: left;
+        margin-left: 10px;
     }
     .section2leftarrow{
         display: none;
@@ -871,6 +873,7 @@ text-align: left;
   }
   .cardslaayout{
     width: 100%;
+
   }
   .section6card1{
     width: 100%;
@@ -1002,6 +1005,7 @@ text-align: left;
     .cardslaayout{
       width: 100%;
       margin: auto;
+      margin-top: 20px;
     }
     .moreaboutagile{
         margin-top: 20px;
@@ -1013,6 +1017,7 @@ text-align: left;
     .card1agile {
         color: #000; /* Set card1agile text color to black */
         text-align: center; /* Center align the text */
+        align-items: center;
     }
 
     .card1innerpara,
@@ -2109,6 +2114,14 @@ text-align: left;
     margin-top: 50px;
   
   }
+  .about_session10_para1 img{
+    width: 54px;
+    height: 3px;
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+
+  }
   .about_session10_span {
     font-family: 'Source Sans Pro';
     font-size: 48px;
@@ -2245,6 +2258,13 @@ text-align: left;
     .circle{
       height: 60px;
       width: 60px;
+    }
+    .about_session10_para1 img{
+      width: 28px;
+      height: 3px;
+      gap: 0px;
+      opacity: 0px;
+  
     }
     .position-relative{
       margin-top: 25px;
@@ -3159,7 +3179,11 @@ text-align: left;
         color: #2CA068;
         position: relative;
       }
-      .webapp_section_11_span::after{
+      .webapp_section_11_heading2 img{
+        width: 24px;
+        height: 3px;
+      }
+      /* .webapp_section_11_span::after{
         margin-left: 10px;
         position: absolute;
         content: '';
@@ -3168,7 +3192,7 @@ text-align: left;
         height: 3px;
         border-radius: 8px;
         background-color: #2CA068;
-      }
+      } */
     }
 
     /*========*/
@@ -3209,6 +3233,7 @@ text-align: left;
       padding-bottom: 95px;
       height: 100hv;
       width: 100%;
+
     }
     .form-body{
       width: 100% !important;
@@ -3377,6 +3402,7 @@ text-align: left;
       /*--------- Form -------------------*/
       .form-background{
         background: linear-gradient(179.79deg, rgba(44, 160, 104, 0.15) 0.17%, rgba(35, 137, 156, 0.0945) 99.8%);
+        margin-top: 20px;
       }
       .form-body{
         width: 100% !important;
