@@ -790,7 +790,7 @@ text-align: left;
         width: 100%;
     }
     .cardlist{
-        width: 100%;
+        width: 100% !important;
         font-size: 12px;
         font-weight: 400;
         line-height: 15.08px;
@@ -874,14 +874,14 @@ text-align: left;
   }
   .section6card1{
     width: 100%;
-    background-color: rgba(44, 160, 104, 0.7); /* Set background color with opacity */
-    background-image: url('./webdev\ image/1000_F_303094737_NRtiCqDWlk6iNRdJGxE8DTyqwaBKfoxs 2.png'); /* Set background image */
+    background-color: rgba(44, 160, 104, 0.7); 
+    background-image: url('./webdev\ image/1000_F_303094737_NRtiCqDWlk6iNRdJGxE8DTyqwaBKfoxs 2.png'); 
     background-blend-mode: overlay; /* Blend the background image with background color */
     height: 340px;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition for box shadow */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
   }
   .section6card2{
     width: 100%;
@@ -961,9 +961,9 @@ text-align: left;
     transform: rotate(180deg);
     border-radius: 15px;
 }
-.agiledropdown.rotate {
-    transform: rotate(180deg); /* Rotate the image 90 degrees */
-}
+/* .agiledropdown.rotate {
+    transform: rotate(180deg); 
+} */
 
 
 
@@ -991,13 +991,14 @@ text-align: left;
     .section6card1,
     .section6card2,
     .section6card3 {
-        background-image: none; /* Remove background color and image */
-        background: none;
+        background-image: none !important; 
+        background-color: transparent !important;
         border: 0.3px solid;
         height: 300px;
         margin-bottom: 20px;
         width: 100%;
     }
+  
     .cardslaayout{
       width: 100%;
       margin: auto;
@@ -1933,9 +1934,10 @@ text-align: left;
     position: relative;
   }
   .group68{
-    width: 60px;
-    height: 60px;
+    width: 34px;
+    height: 40px;
     padding: 2px;
+    margin-left: 16px;
   }
   .vector5{
     width: 60px;
@@ -1949,11 +1951,9 @@ text-align: left;
     z-index: -1;
   }
   .Ellipse241{
-    width: 110px;
-    height: 55px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 20px;
+    width: 64px;
+    height: 64px;
+    margin-left: 16px;
   }
   .group48{
     width: 52.78px;
@@ -1966,9 +1966,7 @@ text-align: left;
     transform: rotate(360deg);
     position: absolute;
   }
-  .ratingsection10{
-    align-items: center;
-  }
+  
   .testimonialparagraph{
     width: 100%;
     font-family: 'Source Sans Pro',sans-serif;
@@ -2003,28 +2001,12 @@ text-align: left;
 
   }
 
-  .mizaraproject{
-      width: 100%;
-      height: 100%;
-      align-items: center;
-      margin-top: 10px;
-      justify-content: center;
+   .mizaraproject{
+    margin-left: -40px;
   }
-  .mizara{
-    width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.11px;
-    text-align: left;
-  }
-  .project{
-    width: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.11px;
-    text-align: left;
-
-  }
+  .ratingsection10{
+    margin-right: -50px;
+  } 
 
   @media only screen and (max-width: 768px){
     .section10backgroundimage{
@@ -2073,28 +2055,39 @@ text-align: left;
       padding: 10px;
     }
     .Ellipse241{
-      width: 52px;
-      height: 52px;
-      margin-top: 0;
+      width: 42px;
+      height: 42px;
+      margin-left: 10px;
     }
     .mizaraproject{
-      width: 100%;
-      height: 41px;
-      margin-top: 0;
+      margin-left: -5px;
+      font-size: 14px;
   }
+  .project{
+    margin-top: -8px;
+    font-size: 12px;
+  }
+ 
   .ourtestimoniallayout{
     width: 100%;
   }
   .ratingsection10{
-    align-items: center;
-    width: 100%;
-  }
+    margin-right: -20px;
+  } 
   .vector5{
     margin-left: 180px;
     margin-top: -10px;
   }
 
   }
+  @media only screen and (max-width: 320px){
+    .mizaraproject{
+      margin-left: 10px;
+      font-size: 14px;
+  }
+  }
+
+
   
   /*section 12==================================================*/
 
@@ -2233,7 +2226,7 @@ text-align: left;
     color: #ffffff;
   }
   .about-session__title{
-    margin-top: 30px;
+    margin-top: 55px;
     font-size: 24px;
     font-weight: 600;
   }
@@ -3177,6 +3170,29 @@ text-align: left;
         background-color: #2CA068;
       }
     }
+
+    /*========*/
+    .accordion-button:focus {
+      box-shadow: none;
+      border-color: rgba(13, 255, 25, 0.125);
+      background-color: #2CA068;
+      color: #ffffff;
+  }
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23264737'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+ }
+
+  @media (max-width:768px){
+    .accordion-button:focus::after {
+      width: 20px;
+      height: 15px;
+  }
+  }
+
+
+
+ 
+
 
 
 
