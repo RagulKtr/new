@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Rotate the image and change its color to green
             var dropdown = this.querySelector('.agiledropdown');
-            dropdown.classList.add('rotate', 'green');
+            // dropdown.classList.add('rotate', 'green');
             dropdown.style.background = 'linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%)'; // Change background to gradient
             
             // Show the hidden elements
@@ -54,10 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
         card.addEventListener('mouseout', function () {
             // Restore original background color
             this.style.backgroundColor = 'rgba(44, 160, 104, 0.7)';
-
+            
             // Reset image rotation and color
             var dropdown = this.querySelector('.agiledropdown');
-            dropdown.classList.remove('rotate', 'green');
+            // dropdown.classList.remove('rotate', 'green');
             dropdown.style.background = ''; // Reset background
             
             // Hide the elements again
@@ -73,54 +73,58 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 //section8=================
-const prevBtn = document.getElementById('prevBtn');
-    const nextBtn = document.getElementById('nextBtn');
-    const cards = document.querySelectorAll('.session11_card');
-    let currentIndex = 0;
-    // Function to toggle previous button background color
-    function togglePrevButtonColor() {
-      if (currentIndex === 0) {
-        prevBtn.style.backgroundColor = '#ffffff'; 
-        prevBtn.style.color = '#000000';
-      } else {
-        prevBtn.style.backgroundColor = '#2CA068';
-        prevBtn.style.color = '#ffffff';
+  const prevBtn = document.getElementById('prevBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      const cards = document.querySelectorAll('.session11_card');
+      let currentIndex = 0;
+      // Function to toggle previous button background color
+      function togglePrevButtonColor() {
+        if (currentIndex === 0) {
+          prevBtn.style.backgroundColor = '#ffffff'; 
+          prevBtn.style.color = '#000000';
+        } else {
+          prevBtn.style.backgroundColor = '#2CA068';
+          prevBtn.style.color = '#ffffff';
+        }
       }
-    }
-    // Function to toggle next button state
-    function toggleNextButtonState() {
-      if (currentIndex >= cards.length - 4) {
-        nextBtn.disabled = true;
-        nextBtn.style.backgroundColor = '#ffffff';
-        nextBtn.style.color = '#000000'; 
-      } else {
-        nextBtn.disabled = false;
-        nextBtn.style.backgroundColor = '#2CA068';
-        nextBtn.style.color = '#ffffff'; 
+      // Function to toggle next button state
+      function toggleNextButtonState() {
+        if (currentIndex >= cards.length - 4) {
+          nextBtn.disabled = true;
+          nextBtn.style.backgroundColor = '#ffffff';
+          nextBtn.style.color = '#000000'; 
+        } else {
+          nextBtn.disabled = false;
+          nextBtn.style.backgroundColor = '#2CA068';
+          nextBtn.style.color = '#ffffff'; 
+        }
       }
-    }
-    togglePrevButtonColor();
-    toggleNextButtonState();
-  
-    prevBtn.addEventListener('click', () => {
-      if (currentIndex > 0) {
-        cards[currentIndex + 3].classList.add('hidden-card');
-        cards[currentIndex - 1].classList.remove('hidden-card');
-        currentIndex--;
-      }
-      togglePrevButtonColor(); 
+      togglePrevButtonColor();
       toggleNextButtonState();
-    });
-  
-    nextBtn.addEventListener('click', () => {
-      if (currentIndex < cards.length - 4) {
-        cards[currentIndex].classList.add('hidden-card');
-        cards[currentIndex + 4].classList.remove('hidden-card');
-        currentIndex++;
-      }
-      togglePrevButtonColor(); 
-      toggleNextButtonState();
-    });
+    
+      prevBtn.addEventListener('click', () => {
+        console.log(currentIndex,'currentIndex------i-->');
+        if (currentIndex > 0) {
+          console.log(currentIndex,'currentIndex-------p->');
+          cards[currentIndex + 3].classList.add('hidden-card');
+          cards[currentIndex - 1].classList.remove('hidden-card');
+          currentIndex--;
+        }
+        togglePrevButtonColor(); 
+        toggleNextButtonState();
+      });
+    
+      nextBtn.addEventListener('click', () => {
+        if (currentIndex < cards.length - 4) {
+          console.log(currentIndex,'currentIndex-------n->');
+          cards[currentIndex].classList.add('hidden-card');
+          cards[currentIndex + 4].classList.remove('hidden-card');
+          currentIndex++;
+          console.log(currentIndex,'currentIndex-------l->');
+        }
+        togglePrevButtonColor(); 
+        toggleNextButtonState();
+      });
     const prevBtnbotton = document.querySelectorAll('#prevBtnbotton');
   const nextBtnbottom = document.querySelectorAll('#nextBtnbottom');
   function togglePrevButtonColor() {
