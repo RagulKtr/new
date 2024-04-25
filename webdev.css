@@ -439,7 +439,7 @@ text-align: left;
     .section2card5:hover .section2_card-body p {
         display: block;
         color: rgba(255, 255, 255, 1);
-        margin-top: 0;
+        margin-top: 10px;
     }
     
     .section2card1  {
@@ -639,7 +639,7 @@ text-align: left;
     }
     .Web_Appsection4sideheading{
         width: 100%;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
         line-height: 20.11px;
         text-align: left;
@@ -650,7 +650,9 @@ text-align: left;
         font-weight: 400;
         line-height: 20px;
         text-align: left;
-
+    }
+    .section4insideheading{
+      font-size: 16px
     }
 }
 /*section 5==================================================*/
@@ -996,7 +998,7 @@ text-align: left;
     .section6card3 {
         background-image: none !important; 
         background-color: transparent !important;
-        border: 0.3px solid;
+        border: 1px solid #D9D9D9;
         height: 300px;
         margin-bottom: 20px;
         width: 100%;
@@ -1945,7 +1947,7 @@ text-align: left;
     margin-left: 16px;
   }
   .vector5{
-    width: 60px;
+    width: 50px;
     height: 76px;
     margin-left: 600px;
     gap: 0px;
@@ -1954,6 +1956,7 @@ text-align: left;
     transform: rotate(360deg);
     position: absolute;
     z-index: -1;
+    margin-top: -10px;
   }
   .Ellipse241{
     width: 64px;
@@ -2054,10 +2057,12 @@ text-align: left;
     .group68{
       width: 34px;
       height: 34px;
+      margin-left: 10px;
     }
     .testimonialparagraph{
       margin-top: 0;
       padding: 10px;
+      font-size: 12px;
     }
     .Ellipse241{
       width: 42px;
@@ -2066,11 +2071,20 @@ text-align: left;
     }
     .mizaraproject{
       margin-left: -5px;
-      font-size: 14px;
+      margin-top: 2px;
+  }
+  .mizara{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    text-align: left;
   }
   .project{
     margin-top: -8px;
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13.83px;
+    text-align: left;
   }
  
   .ourtestimoniallayout{
@@ -2172,6 +2186,12 @@ text-align: left;
   }
   .about-session__profile-name{
     margin-left: 10px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.11px;
+    color: #706E72;
+
   }
   .footer-border {
     height: 1px;
@@ -2329,75 +2349,156 @@ text-align: left;
   
 
   /*section13=================================================*/
+ /* styles.css */
+ .section13layout{
+  width: 100%;
+  margin-top: 108px;
+ }
+ .section13header{
+  width: 100%;
+ }
+ .section13heading{
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.34px;
+  text-align: left;
+  color: #000000;
+ }
+ .section13heading span{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.34px;
+  text-align: center;
+  color: #2CA068;
+ }
+ .section13heading img{
+  width: 54px;
+  height: 3px;
+  gap: 0px;
+  border-radius: 50px;
+ }
+.accordion {
+  border: none;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.accordion-header span{
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.11px;
+  text-align: left;
+  color: #676968;
+}
+.accordion-item {
+    margin-bottom: 10px; 
+}
+
+.accordion-header.active {
+  background-color: #2CA068;
+  color:white
+}
+.accordion-header.active span{
+  color: white;
+}
+
+.accordion-header.active .accordion-header {
+  color: white;
+}
+
+.accordion-header.active .accordion-toggle .arrow {
+  border-color: white;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease; 
+}
+.accordion-header:hover{
+  border-color:  #2CA068;
+
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+}
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+.accordion-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+@media (max-width: 728px){
   .section13layout{
     width: 100%;
-    margin-top: 108px;
-  }
-  .section13heading{
+    margin-top: 20px;
+   }
+   .section13header{
     width: 100%;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 48px;
+   }
+   .section13heading{
+    width: 100%;
+    font-size: 32px;
     font-weight: 600;
-    line-height: 60.34px;
+    line-height: 40.22px;
     text-align: left;
-    color: rgba(0, 0, 0, 1);
-  }
-  .section13heading span{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60.34px;
+   }
+   .section13heading span{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.22px;
     text-align: left;
-    color: rgba(44, 160, 104, 1);
+   }
+   .accordion-content{
+    font-size: 14px;
+   }
+   .section13heading img{
+    width: 28px;
+    height: 3px;
+    gap: 0px;
+    border-radius: 50px;
+   }
+  .accordion {
+    border: none;
+    overflow: hidden;
+    margin-top: 30px;
   }
-  .section13heading img{
-    width: 54px;
-  }
-  .accordion-button{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 16px;
+  .accordion-header span{
+    width: 100%;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 20.11px;
-    text-align: center;
-    margin-top: 5px;
+    line-height: 17.6px;
+    text-align: left;
   }
-  .accordion{
-    margin-top: 40px;
-    padding: 40px;
-  }
-
-  @media screen and (max-width: 767px){
-    .section13heading{
-      width: 100%;
-      font-size: 32px;
-      font-weight: 600;
-      line-height: 40.22px;
-      text-align: left;
-    }
-    .section13heading span{
-      font-size: 32px;
-      font-weight: 600;
-      line-height: 40.22px;
-      text-align: left;
-    }
-    .section13heading img{
-      width: 28px;
-    }
-    .accordion{
-      margin-top: 30px;
-      padding: 0;
-    }
-    .accordion-button{
-      width: 100%;
-      font-size: 14px;
-      font-weight: 400;
-      line-height: 17.6px;
-      text-align: left;
-      padding: 10px;
-      margin-top: 0.3px;
-    }
-  }
-
+}
 
 
   /*====================*/
@@ -3196,28 +3297,7 @@ text-align: left;
     }
 
     /*========*/
-    .accordion-button:focus {
-      box-shadow: none;
-      border-color: rgba(13, 255, 25, 0.125);
-      background-color: #2CA068;
-      color: #ffffff;
-  }
-  .accordion-button::after {
-    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23264737'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
- }
-
-  @media (max-width:768px){
-    .accordion-button:focus::after {
-      width: 20px;
-      height: 15px;
-  }
-  }
-
-
-
- 
-
-
+  
 
 
     /*===============================================================*/
@@ -3252,13 +3332,6 @@ text-align: left;
       height: 26px;
       width: 26px;
       border-radius: 50%;
-    }
-    
-    .about-session__profile-name {
-      color: #000000;
-      font-weight: 500;
-      /* margin-top: -25px; */
-      margin-left: 10px;
     }
     
     .about-session__profile-dob {
@@ -3411,6 +3484,12 @@ text-align: left;
         margin-top: -20px;
         margin-bottom: -1px;
         font-size: 32px;
+      }
+      .about-session__profile-name{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.11px;
+
       }
       .form-container .form-text {
           font-size: 24px;
