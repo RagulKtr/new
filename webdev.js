@@ -384,3 +384,50 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 });
+
+
+
+// script.js
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+  accordionHeaders.forEach(header => {
+      header.addEventListener('click', function() {
+          const accordionItem = this.parentElement;
+          const accordionContent = accordionItem.querySelector('.accordion-content');
+          const accordionToggle = accordionItem.querySelector('.accordion-toggle').querySelector('.arrow');
+
+          if (accordionContent.style.display === 'block') {
+              accordionContent.style.display = 'none';
+              accordionToggle.classList.remove('up');
+              accordionToggle.classList.add('down');
+          } else {
+              accordionContent.style.display = 'block';
+              accordionToggle.classList.remove('down');
+              accordionToggle.classList.add('up');
+          }
+      });
+  });
+});
+
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionItems = document.querySelectorAll('.accordion-header');
+
+  accordionItems.forEach(item => {
+      item.addEventListener('click', function() {
+          // Toggle active class on the clicked accordion item
+          this.classList.toggle('active');
+          
+          // Toggle arrow color
+          const accordionToggle = this.querySelector('.accordion-toggle').querySelector('.arrow');
+          accordionToggle.classList.toggle('white');
+
+          // Toggle text color
+          const accordionHeader = this.querySelector('.accordion-header');
+          accordionHeader.classList.toggle('white');
+      });
+  });
+});
+
