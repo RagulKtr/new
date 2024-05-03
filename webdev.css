@@ -81,22 +81,21 @@ text-align: left;
 }
 /*======================*/
 
-
-.Web-App-Development-Service-layout{
+.Web-Development-Service-maindiv{
   width: 100%;
   height: auto;
   margin-top: 80px;
 }
-.Web-App-Development-Service-col1{
+.Web-Development-Service-col1{
   width: 100%;
   height: auto;
 }
-.Web-App-Development-Service-header{
+.Web-Development-Service-header{
   width: 100%;
   height: auto;
   margin-top: 50px;
 }
-.Web-App-Development-Service-heading{
+.Web-Development-Service-heading{
   width: 100%;
   height: auto;
   font-family: 'Source Sans Pro',sans-serif;
@@ -106,11 +105,11 @@ text-align: left;
   text-align: left;
   color: rgba(0, 0, 0, 1);
 }
-.Web-App-Development-Service-Leverage-cutting-edge{
+.Web-Development-Service-content{
   width: 100%;
   height: auto;
 }
-.Web-App-Development-Service-para1{
+.Web-Development-Service-para1{
   width: 100%;
   height: auto;
   font-family: 'Source Sans Pro',sans-serif;
@@ -119,13 +118,13 @@ text-align: left;
   line-height: 25.14px;
   text-align: left;
   color: rgba(65, 64, 66, 1);
-  margin-top: 50px;
+  margin-top: 40px;
 }
-.Web-App-Development-Service-develop-scalable{
+.Web-Development-Service-subcontent{
   width: 100%;
   height: auto;
 }
-.Web-App-Development-Service-para2{
+.Web-Development-Service-para2{
   width: 100%;
   height: auto;
   font-family: 'Source Sans Pro',sans-serif;
@@ -136,15 +135,15 @@ text-align: left;
   color: rgba(103, 105, 104, 1);
   margin-top: 18px;
 }
-.Web-App-Development-Service-button{
+.Web-Development-Service-button{
   width: 100%;
   height: auto;
 }
-.Web-App-Development-Service-mainimage{
+.Web-Development-Service-mainimage{
   width: 100%;
   height: auto;
 }
-.Web-App-Development-Service-button button{
+.Web-Development-Service-button button{
   background: linear-gradient(90deg, #248B97 0%, #2CA068 100%);
   width: 227px;
   height: 42px;
@@ -161,667 +160,713 @@ text-align: left;
 }
 
 @media screen and (max-width: 767px) {
-  .Web-App-Development-Service-layout {
+  .Web-Development-Service-maindiv {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .Web-App-Development-Service-col1 {
+  .Web-Development-Service-col1 {
     text-align: center;
   }
 
-  .Web-App-Development-Service-header,
-  .Web-App-Development-Service-Leverage-cutting-edge,
-  .Web-App-Development-Service-develop-scalable,
-  .Web-App-Development-Service-button,
-  .Web-App-Development-Service-mainimage {
+  .Web-Development-Service-mainimage {
+    margin-top: 20px;
+  }
+
+  .Web-Development-Service-header,
+  .Web-Development-Service-content,
+  .Web-Development-Service-subcontent,
+  .Web-Development-Service-button,
+  .Web-Development-Service-mainimage {
     width: 100%;
   }
-  .Web-App-Development-Service-heading,
-  .Web-App-Development-Service-para1,
-  .Web-App-Development-Service-para2,
-  .Web-App-Development-Service-button button {
+  .Web-Development-Service-heading,
+  .Web-Development-Service-para1,
+  .Web-Development-Service-para2,
+  .Web-Development-Service-button button {
     text-align: center;
   }
-  .Web-App-Development-Service-heading{
+  .Web-Development-Service-header {
+    margin-top: 0;
+  }
+  .Web-Development-Service-content{
+    margin-top: 0;
+  }
+  .Web-Development-Service-heading{
       width: 100%;
       font-size: 36px;
       font-weight: 600;
       line-height: 45.25px;
+      margin-top: 0;
   }
-  .Web-App-Development-Service-para1{
+  .Web-Development-Service-para1{
       width: 100%;
       font-size: 16px;
       font-weight: 600;
       line-height: 20.11px;
+      margin-top: 20px;
   }
-  .Web-App-Development-Service-para2{
+  .Web-Development-Service-para2{
       font-size: 14px;
       font-weight: 400;
       line-height: 22px;
       width: 100%;
+      text-align: left;
+      margin-top: 20px;
   }
-  .Web-App-Development-Service-button button{
+  .Web-Development-Service-button button{
       font-size: 16px;
       font-weight: 700;
       line-height: 20.11px;
       text-align: center;
+      margin-top: 20px;
   }
 }
 
-
 /*section1==============================================================*/
-.Web_App_Development_Service_section2layout{
-    width: 100%;
-    height: auto;
-    margin-top: 108px;
+.Web-Development-Service-cardmaindiv{
+  width: 100%;
+  height: auto;
+  margin-top: 108px;
 }
-.Web_App_Development_Service_section2_headersection{
-    width: 100%;
+.Web-Development-Service-cardheader{
+  width: 100%;
 }
-.Web_App_Development_Service_section2_heading{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 60.34px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
+.Web-Development-Service-cardheading{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.34px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
 }
-.section2_services{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60.34px;
-    text-align: left;
-    color: rgba(44, 160, 104, 1);
+.Web-App-services{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.34px;
+  text-align: left;
+  color: rgba(44, 160, 104, 1);
 }
-.section2_services img{
-    width: 54px;
-    height: 3px;
-    margin-left: 12px;
+.Web-App-services img{
+  width: 54px;
+  height: 3px;
+  margin-left: 12px;
 }
-.Web_App_Development_Service_section2paragraph{
-    width: 100%;
-    margin-top: 54px;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: rgba(103, 105, 104, 1);
+.Web-Development-Service-card-description{
+  width: 100%;
+  margin-top: 54px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(103, 105, 104, 1);
 }
-.Web_App_Development_Service_section2cardslayout{
-    width: 100%;
-    align-items: center;
-}
-
-.section2card1{
-    width: 215px;
-    height: 301px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(233, 233, 233, 1);
+.Web-Development-Service-cardslayout2{
+  width: 100%;
+  align-items: center;
 }
 
-.section2card2{
-    width: 215px;
-    height: 301px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(233, 233, 233, 1);
-    margin-left: 35px;
-    
-}
-.section2card3{
-    width: 215px;
-    height: 301px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(233, 233, 233, 1);
-    margin-left: 70px;
-    
-}
-.section2card4{
-    width: 215px;
-    height: 301px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(233, 233, 233, 1);
-    margin-left: 105px;
-    
-}
-.section2card5{
-    width: 215px;
-    height: 301px;
-    gap: 0px;
-    opacity: 0px;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(233, 233, 233, 1);
-    margin-left: 140px;
-    
-}
-.section2line{
-    width: 132px;
-    height: 0px;
-    margin-top: 18px;
-    margin-left: 24px;
-    gap: 0px;
-    border: 2px;
-    opacity: 0px;
-    border: 2px solid rgba(65, 64, 66, 1)
+.Web-Development-Service-card1{
+  width: 215px;
+  height: 301px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(233, 233, 233, 1);
 }
 
-.section2_card-title{
-    margin-top: 110px;
-    margin-left: 24px;
+.Web-Development-Service-card2{
+  width: 215px;
+  height: 301px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(233, 233, 233, 1);
+  margin-left: 35px;
+  
 }
-.section2articles{
-    width: 100% !important;
-    height: auto;
+.Web-Development-Service-card3{
+  width: 215px;
+  height: 301px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(233, 233, 233, 1);
+  margin-left: 70px;
+  
 }
-.section2_paragraph{
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    text-align: left;
-    width: 100%;
-    height: auto;
-    margin-top: 24px;
-    margin-left: 14px;
-    gap: 0px;
-    opacity: 0px;
-    padding-right:20px ;
+.Web-Development-Service-card4{
+  width: 215px;
+  height: 301px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(233, 233, 233, 1);
+  margin-left: 105px;
+  
+}
+.Web-Development-Service-card5{
+  width: 215px;
+  height: 301px;
+  gap: 0px;
+  opacity: 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(233, 233, 233, 1);
+  margin-left: 140px;
+  
+}
+.Web-Development-Service-card-line{
+  width: 132px;
+  height: 0px;
+  margin-top: 18px;
+  margin-left: 12px;
+  gap: 0px;
+  border: 2px;
+  opacity: 0px;
+  border: 2px solid rgba(65, 64, 66, 1)
 }
 
-.section2card1:hover,
-.section2card2:hover,
-.section2card3:hover,
-.section2card4:hover,
-.section2card5:hover {
-    background: rgba(44, 160, 104, 1);
+.Web-Development-Service-card-title{
+  margin-top: 110px;
+  margin-left: 12px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 30.17px;
+  text-align: left;
 }
-.section2card1,
-.section2card2,
-.section2card3,
-.section2card4,
-.section2card5 {
-    transition: background-color 0.3s ease;
+.Web-Development-Service-card-articles{
+  width: 100% !important;
+  height: auto;
+}
+.Web-Development-Service-card-paragraph{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+  gap: 0px;
+  opacity: 0px;
+  padding-right:20px ;
 }
 
-.section2card1 .section2_card-title,
-.section2card2 .section2_card-title,
-.section2card3 .section2_card-title,
-.section2card4 .section2_card-title,
-.section2card5 .section2_card-title,
-.section2card1 .section2line,
-.section2card2 .section2line,
-.section2card3 .section2line,
-.section2card4 .section2line,
-.section2card5 .section2line {
-    transition: color 0.3s ease;
+.Web-Development-Service-card1:hover,
+.Web-Development-Service-card2:hover,
+.Web-Development-Service-card3:hover,
+.Web-Development-Service-card4:hover,
+.Web-Development-Service-card5:hover {
+  background: rgba(44, 160, 104, 1);
+}
+.Web-Development-Service-card1,
+.Web-Development-Service-card2,
+.Web-Development-Service-card3,
+.Web-Development-Service-card4,
+.Web-Development-Service-card5 {
+  transition: background-color 0.3s ease;
 }
 
-.section2card1:hover .section2_card-title,
-.section2card2:hover .section2_card-title,
-.section2card3:hover .section2_card-title,
-.section2card4:hover .section2_card-title,
-.section2card5:hover .section2_card-title
+.Web-Development-Service-card1 .Web-Development-Service-card-title,
+.Web-Development-Service-card2 .Web-Development-Service-card-title,
+.Web-Development-Service-card3 .Web-Development-Service-card-title,
+.Web-Development-Service-card4 .Web-Development-Service-card-title,
+.Web-Development-Service-card5 .Web-Development-Service-card-title,
+.Web-Development-Service-card1 .Web-Development-Service-card-line,
+.Web-Development-Service-card2 .Web-Development-Service-card-line,
+.Web-Development-Service-card3 .Web-Development-Service-card-line,
+.Web-Development-Service-card4 .Web-Development-Service-card-line,
+.Web-Development-Service-card5 .Web-Development-Service-card-line {
+  transition: color 0.3s ease;
+}
+
+.Web-Development-Service-card1:hover .Web-Development-Service-card-title,
+.Web-Development-Service-card2:hover .Web-Development-Service-card-title,
+.Web-Development-Service-card3:hover .Web-Development-Service-card-title,
+.Web-Development-Service-card4:hover .Web-Development-Service-card-title,
+.Web-Development-Service-card5:hover .Web-Development-Service-card-title
 {
-    color: rgba(255, 255, 255, 1);
-    margin-top: 10px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 10px;
 }
 
-.section2card1:hover .section2line,
-.section2card2:hover .section2line,
-.section2card3:hover .section2line,
-.section2card4:hover .section2line,
-.section2card5:hover .section2line{
-    border: 2px solid rgba(255, 255, 255, 1);
-    margin-top: 10px;
+.Web-Development-Service-card1:hover .Web-Development-Service-card-line,
+.Web-Development-Service-card2:hover .Web-Development-Service-card-line,
+.Web-Development-Service-card3:hover .Web-Development-Service-card-line,
+.Web-Development-Service-card4:hover .Web-Development-Service-card-line,
+.Web-Development-Service-card5:hover .Web-Development-Service-card-line{
+  border: 2px solid rgba(255, 255, 255, 1);
+  margin-top: 10px;
 }
 
 
-.section2_card-body p {
-    display: none;
+.Web-Development-Service-card-body p {
+  display: none;
 }
 
-.section2card1:hover .section2_card-body p,
-.section2card2:hover .section2_card-body p,
-.section2card3:hover .section2_card-body p,
-.section2card4:hover .section2_card-body p,
-.section2card5:hover .section2_card-body p {
-    display: block;
-    color: rgba(255, 255, 255, 1);
+.Web-Development-Service-card1:hover .Web-Development-Service-card-body p,
+.Web-Development-Service-card2:hover .Web-Development-Service-card-body p,
+.Web-Development-Service-card3:hover .Web-Development-Service-card-body p,
+.Web-Development-Service-card4:hover .Web-Development-Service-card-body p,
+.Web-Development-Service-card5:hover .Web-Development-Service-card-body p {
+  display: block;
+  color: rgba(255, 255, 255, 1);
 }
 
-.section2leftarrow{
-    cursor: pointer;
+.Web-Development-Service-card-leftarrow{
+  cursor: pointer;
 }
-.section2rightarrow{
-    cursor: pointer;
+.Web-Development-Service-card-rightarrow{
+  cursor: pointer;
 }
 
 
 @media screen and (max-width: 767px) {
-    /* Make paragraph initially visible */
-    .section2_card-body p {
-        display: block;
-    }
-    .Web_App_Development_Service_section2cardslayout{
-      width: 100% !important;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
-      margin: auto;
+  /* Make paragraph initially visible */
+  .Web-Development-Service-card-body p {
+      display: block;
+  }
+  .Web-Development-Service-cardslayout2{
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.Web-Development-Service-cardmaindiv{
+    margin-top: 50px;
+}
+
+  /* Reset styles for hover effects */
+  .Web-Development-Service-card1:hover .Web-Development-Service-card-title,
+  .Web-Development-Service-card2:hover .Web-Development-Service-card-title,
+  .Web-Development-Service-card3:hover .Web-Development-Service-card-title,
+  .Web-Development-Service-card4:hover .Web-Development-Service-card-title,
+  .Web-Development-Service-card5:hover .Web-Development-Service-card-title,
+  .Web-Development-Service-card1:hover .Web-Development-Service-card-line,
+  .Web-Development-Service-card2:hover .Web-Development-Service-card-line,
+  .Web-Development-Service-card3:hover .Web-Development-Service-card-line,
+  .Web-Development-Service-card4:hover .Web-Development-Service-card-line,
+  .Web-Development-Service-card5:hover .Web-Development-Service-card-line,
+  .Web-Development-Service-card1:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card2:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card3:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card4:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card5:hover .Web-Development-Service-card-body p {
+      display: block;
+      color: rgba(255, 255, 255, 1);
+      /* margin-top: 10px; */
+  }
+  
+  .Web-Development-Service-card1:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card2:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card3:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card4:hover .Web-Development-Service-card-body p,
+  .Web-Development-Service-card5:hover .Web-Development-Service-card-body p{
+    margin-top: 10px;
   }
 
-
-    /* Reset styles for hover effects */
-    .section2card1:hover .section2_card-title,
-    .section2card2:hover .section2_card-title,
-    .section2card3:hover .section2_card-title,
-    .section2card4:hover .section2_card-title,
-    .section2card5:hover .section2_card-title,
-    .section2card1:hover .section2line,
-    .section2card2:hover .section2line,
-    .section2card3:hover .section2line,
-    .section2card4:hover .section2line,
-    .section2card5:hover .section2line,
-    .section2card1:hover .section2_card-body p,
-    .section2card2:hover .section2_card-body p,
-    .section2card3:hover .section2_card-body p,
-    .section2card4:hover .section2_card-body p,
-    .section2card5:hover .section2_card-body p {
-        display: block;
-        color: rgba(255, 255, 255, 1);
-        margin-top: 10px;
-    }
-    
-    .section2card1  {
-        width: 100%; /* Adjust margin as needed */
-        margin-left: 0;
-        height: auto;
-        border: 2px solid rgba(233, 233, 233, 1);
-        padding: 10px;
-    }
-    .section2card2  {
-        width: 100%; /* Adjust margin as needed */
-        margin-left: 0;
-        height: auto;
-        border: 2px solid rgba(233, 233, 233, 1);
-    }
-    .section2card3  {
-        width: 100%; /* Adjust margin as needed */
-        margin-left: 0;
-        height: auto;
-        border: 2px solid rgba(233, 233, 233, 1);
-    }
-    .section2card4  {
-        width: 100%; /* Adjust margin as needed */
-        margin-left: 0;
-        height: auto;
-        border: 2px solid rgba(233, 233, 233, 1);
-    }
-    .section2card5  {
-        width: 100%; /* Adjust margin as needed */
-        margin-left: 0;
-        height: auto;
-        border: 2px solid rgba(233, 233, 233, 1);
-    }
-    .Web_App_Development_Service_section2_headersection{
-        width: 100%;
-        height: auto;
-        gap: 0px;
-        opacity: 0px;
-    }
-    .Web_App_Development_Service_section2_heading{
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 40.22px;
-        text-align: left;
-    }
-    .section2_services{
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 40.22px;
-        text-align: left;
-    }
-    .section2_services img{
-        width: 28px;
-        height: 3px;
-    }
-    .Web_App_Development_Service_section2paragraph{
-        width: 100%;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 22px;
-        text-align: left;
-        margin-top: 0;
-    }
-    .section2_card-title{
-        margin-top: 10px;
-    }
-    .section2_card-title{
-        width: 100%;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 25.14px;
-        text-align: left;
-        margin-left: 10px;
-    }
-    .section2line{
-        width: 132px;
-        margin-left: 10px;
-    }
-    .section2_paragraph{
-        width: 100%;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 22px;
-        text-align: left;
-        margin-left: 10px;
-    }
-    .section2leftarrow{
-        display: none;
-    }
-    .section2rightarrow{
-        display: none;
-    }
+  
+  .Web-Development-Service-card1  {
+      width: 100%; /* Adjust margin as needed */
+      margin-left: 0;
+      height: auto;
+      border: 2px solid rgba(233, 233, 233, 1);
+      padding: 10px;
+  }
+  .Web-Development-Service-card2  {
+      width: 100%; /* Adjust margin as needed */
+      margin-left: 0;
+      height: auto;
+      border: 2px solid rgba(233, 233, 233, 1);
+      padding: 10px;
+  }
+  .Web-Development-Service-card3  {
+      width: 100%; /* Adjust margin as needed */
+      margin-left: 0;
+      height: auto;
+      border: 2px solid rgba(233, 233, 233, 1);
+      padding: 10px;
+  }
+  .Web-Development-Service-card4  {
+      width: 100%; /* Adjust margin as needed */
+      margin-left: 0;
+      height: auto;
+      border: 2px solid rgba(233, 233, 233, 1);
+      padding: 10px;
+  }
+  .Web-Development-Service-card5  {
+      width: 100%; /* Adjust margin as needed */
+      margin-left: 0;
+      height: auto;
+      border: 2px solid rgba(233, 233, 233, 1);
+      padding: 10px;
+  }
+  .Web-Development-Service-cardheader{
+      width: 100%;
+      height: auto;
+      gap: 0px;
+      opacity: 0px;
+      
+  }
+  .Web-Development-Service-cardheading{
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40.22px;
+      text-align: left;
+      
+  }
+  .Web-App-services{
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40.22px;
+      text-align: left;
+  }
+  .Web-App-services img{
+      width: 28px;
+      height: 3px;
+  }
+  .Web-Development-Service-card-description{
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-top: 0;
+  }
+  .Web-Development-Service-card-title{
+      margin-top: 10px;
+  }
+  .Web-Development-Service-card-title{
+      width: 100%;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 25.14px;
+      text-align: left;
+      margin-left: 0;
+  }
+  .Web-Development-Service-card-line{
+      width: 132px;
+      margin-left: 0;
+  }
+  .Web-Development-Service-card-paragraph{
+      width: 100%;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;
+      margin-left: 0;
+  }
+  .Web-Development-Service-card-leftarrow{
+      display: none;
+  }
+  .Web-Development-Service-card-rightarrow{
+      display: none;
+  }
 }
 
 /*=section 3===========================================================*/
 
 /*section 4==================*/
-.custom-background {
-    background-image: url('./webdev\ image/Vector 9.png');
-    background-size: cover;
-    background-position: center top;
-    margin-top: 108px; /* Apply margin-top only to the background */
+.Why-Choose-Us-background {
+  background-image: url('./webdev\ image/Vector 9.png');
+  background-size: cover;
+  background-position: center top;
+  margin-top: 108px; /* Apply margin-top only to the background */
 }
 
-.Web_App_Development_Service_section4layout {
-    width: 100%;
-    height: auto;
-    margin-top: 0; /* Reset margin-top for the layout */
+.Why-Choose-Us-maindiv {
+  width: 100%;
+  height: auto;
+  margin-top: 0; /* Reset margin-top for the layout */
 }
 .container {
-    margin-top: 0; /* Reset margin-top for the container */
+  margin-top: 0; /* Reset margin-top for the container */
 }
 
-.section4heading{
-    width: 100%;
-    height: auto;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 60.34px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
+.Why-Choose-Us-heading{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.34px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
 }
-.section4heading span{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60.34px;
-    text-align: left;
-    color: rgba(44, 160, 104, 1);
+.Why-Choose-Us-heading span{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.34px;
+  text-align: left;
+  color: rgba(44, 160, 104, 1);
 }
-.section4col2{
-    width: 100%;
-    height: auto;
-    margin-top: 30px;
+.Why-Choose-Us-col2 {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
 }
-.Web_Appsection4sideheading{
-    width: 100%;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 30.17px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
+.Why-Choose-Us-sideheading{        
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.17px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
 }
-.Web_Appsection4sideheadingpara{
-    width: 100%;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: rgba(103, 105, 104, 1);
+.Why-Choose-Us-sideheadingpara{
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(103, 105, 104, 1);
 }
-.section4insideheading{
-    width: 100%;
-    height: auto;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22.63px;
-    text-align: left;
-    color: rgba(10, 10, 10, 1);
+.Why-Choose-Us-insideheading{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.63px;
+  text-align: left;
+  color: rgba(10, 10, 10, 1);
 }
-.section4insideheadingpara{
-    width: 100%;
-    height: auto;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: rgba(103, 105, 104, 1);
+.Why-Choose-Us-insideheadingpara{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(103, 105, 104, 1);
+}
+@media screen and (max-width: 767px){
+.Why-Choose-Us-background{
+  margin-top: 80px;
+}
+  .Why-Choose-Us-maindiv{
+      width: 100%;
+      height: auto;
+      margin-top: 0 !important;
+  }
+  .Why-Choose-Us-heading{
+      width: 100%;
+      height: auto;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 40.22px;
+      text-align: left;
+  }
+  .Why-Choose-Us-heading span{
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 40.22px;
+      text-align: left;
+  }
+  .Why-Choose-Us-heading img{
+      width: 28px;
+  }
+  .Web_Appsection4sideheading{
+      width: 100%;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 20.11px;
+      text-align: left;
+  }
+  .Why-Choose-Us-sideheadingpara{
+      width: 100%;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+  }
+  .Why-Choose-Us-insideheading{
+    font-size: 16px
+  }
+}
+/*section 5==================================================*/
+.Engagement-Models-button{
+  text-align: center;
+  
+}
+.Engagement-Models-button .btn-primary {
+  background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+  border: none; /* Remove button border */
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.63px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 200px;
+}
+.Engagement-Models-maindiv{
+  width: 100%;
+  height: auto;
+  margin-top: 108px;
+}
+.center-column-content {
+  text-align: center;
+}
+
+.Engagement-Models-heading{
+  width: 100%;
+  height: auto;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.34px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.Engagement-Models-heading span{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60.34px;
+  text-align: left;
+  color: rgba(44, 160, 104, 1);
+}
+.Engagement-Models-card-layout{
+  width: 100%;
+  margin-top: 40px;
+}
+.Engagement-Models-innercards{
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(217, 217, 217, 1);
+  height: auto;
+  padding: 30px;
+}
+.Engagement-Models-innercardsheading{
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.14px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.Engagement-Models-innercardsparagraph{
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: rgba(103, 105, 104, 1);
+}
+.bi-check-circle-fill{
+  width: 16px;
+  height: 16px;
+  padding: 3.73px 2px 3.33px 2.33px;
+  color: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
+  
+}
+.btn-primary .bi-check-circle-fill {
+  color: black; /* Set check circle icon color to black */
+}
+
+.custom-check-circle{
+  color: #2CA068;
+}
+.Engagement-Models-cardlist{
+  width: 100%;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.11px;
+  text-align: left;
+  color: rgba(103, 105, 104, 1);
+}
+.Engagement-Models-cardlist li {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  align-items: center;
 }
 
 @media screen and (max-width: 767px){
-    .Web_App_Development_Service_section4layout{
-        width: 100%;
-        height: auto;
-        margin-top: 0 !important;
-    }
-    .section4heading{
-        width: 100%;
-        height: auto;
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 40.22px;
-        text-align: left;
-    }
-    .section4heading span{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 40.22px;
-        text-align: left;
-    }
-    .section4heading img{
-        width: 28px;
-    }
-    .Web_Appsection4sideheading{
-        width: 100%;
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 20.11px;
-        text-align: left;
-    }
-    .Web_Appsection4sideheadingpara{
-        width: 100%;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 20px;
-        text-align: left;
-    }
-    .section4insideheading{
-      font-size: 16px
-    }
-}
-/*section 5==================================================*/
-.section5button{
-    text-align: center;
-    
-}
-.section5button .btn-primary {
-    background: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
-    border: none; /* Remove button border */
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 22.63px;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    width: 200px;
+  .Engagement-Models-maindiv{
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
   }
-.section5layout{
-    width: 100%;
-    height: auto;
-}
-.center-column-content {
-    text-align: center;
+  .Engagement-Models-innercards{
+    margin-top: 10px;
   }
-
-.section5heading{
-    width: 100%;
-    height: auto;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 60.34px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
-}
-.section5heading span{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 60.34px;
-    text-align: left;
-    color: rgba(44, 160, 104, 1);
-}
-.section5cardslayout{
-    width: 100%;
-}
-.section1firstcard{
-    width: 100%;
-    background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(217, 217, 217, 1);
-    height: auto;
-    padding: 30px;
-}
-.cardheading{
-    width: 100%;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 25.14px;
-    text-align: left;
-    color: rgba(0, 0, 0, 1);
-}
-.cardparagraph{
-    width: 100%;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: left;
-    color: rgba(103, 105, 104, 1);
-}
-.bi-check-circle-fill{
-    width: 16px;
-    height: 16px;
-    padding: 3.73px 2px 3.33px 2.33px;
-    color: linear-gradient(90deg, #23899C 13.04%, #2CA068 91.03%);
-    
-}
-.btn-primary .bi-check-circle-fill {
-    color: black; /* Set check circle icon color to black */
+  .Engagement-Models-heading{
+      width: 100%;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40.22px;
+      text-align: left;
   }
-
-.custom-check-circle{
-    color: #2CA068;
-}
-.cardlist{
-    width: 100%;
-    font-family: 'Source Sans Pro',sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.11px;
-    text-align: left;
-    color: rgba(103, 105, 104, 1);
-}
-.cardlist li {
-    margin-bottom: 10px; /* Adjust the margin as needed */
-    align-items: center;
+  .Engagement-Models-heading span{
+      width: 100%;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40.22px;
+      text-align: left;
   }
-
-  @media screen and (max-width: 767px){
-    .section5layout{
-        width: 100%;
-        height: auto;
-    }
-    .section5heading{
-        width: 100%;
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 40.22px;
-        text-align: left;
-    }
-    .section5heading span{
-        width: 100%;
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 40.22px;
-        text-align: left;
-    }
-    .section5heading img{
-        width: 28px;
-    }
-    .section1firstcard{
-        margin-top: 20px;
-    }
-    .cardheading{
-        font-size: 18px;
-        font-weight: 600;
-        line-height: 22.63px;
-        text-align: left;
-        width: 100%;
-    }
-    .cardparagraph{
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 20px;
-        text-align: left;
-        width: 100%;
-    }
-    .cardlist{
-        width: 100% !important;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 15.08px;
-        text-align: left;
-    }
-    .section5button .btn-primary{
-        width: 145px;
-        font-size: 17px;
-        font-weight: 700;
-        line-height: 25.14px;
-        text-align: center;
-        padding: 10px;
-        
-    }
-    
+  .Engagement-Models-heading img{
+      width: 28px;
+      height: 3px;
   }
+  .Engagement-Models-card-layout{
+    margin-top: 0;
+  }
+  .Engagement-Models-innercardsheading{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 22.63px;
+      text-align: left;
+      width: 100%;
+  }
+  .Engagement-Models-innercardsparagraph{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: left;
+      width: 100%;
+  }
+  .Engagement-Models-cardlist{
+      width: 100% !important;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15.08px;
+      text-align: left;
+  }
+  .Engagement-Models-button .btn-primary{
+      width: 145px;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 25.14px;
+      text-align: center;
+      padding: 10px;
+      
+  }
+  
+}
 
   /*section6============================================*/
 
-  .section6layout{
+  .Development-Methodologies-maindiv{
     width: 100%;
     height: auto;
+    margin-top: 108px;
   }
-  .section6header{
+  .Development-Methodologies-header{
     width: 100%;
   }
-  .section6heading{
+  .Development-Methodologies-heading {
     width: 100%;
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 48px;
@@ -830,14 +875,14 @@ text-align: left;
     text-align: left;
     color: rgba(0, 0, 0, 1);
   }
-  .section6heading span{
+  .Development-Methodologies-heading  span{
     font-size: 48px;
     font-weight: 700;
     line-height: 60.34px;
     text-align: left;
     color: rgba(44, 160, 104, 1);
   }
-  .section6col1{
+  .Development-Methodologies-col1{
     width: 100%;
     height: auto;
     margin-top: 30px;
@@ -847,7 +892,7 @@ text-align: left;
     align-items: center;
     justify-content: center;
   }
-  .section6paragraph{
+  .Development-Methodologies-paragraph{
     width: 100%;
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 14px;
@@ -856,7 +901,7 @@ text-align: left;
     text-align: left;
     color: rgba(103, 105, 104, 1);
   }
-  .section6link{
+  .Development-Methodologies-link{
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -864,6 +909,7 @@ text-align: left;
     text-align: left;
     width: 100%;
     color: rgba(44, 160, 104, 1);
+    
   }
   .methodologiesline{
     width: 182px;
@@ -873,11 +919,30 @@ text-align: left;
     border: 2px solid rgba(44, 160, 104, 1);
     margin-top: -10px;
   }
-  .cardslaayout{
+  .Development-Methodologies-link1{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    width: 100%;
+    color: rgba(44, 160, 104, 1);
+    display: none;
+  }
+  .methodologiesline1{
+    width: 182px;
+    gap: 0px;
+    border: 2px;
+    opacity: 0px;
+    border: 2px solid rgba(44, 160, 104, 1);
+    margin-top: -10px;
+    display: none;
+  }
+  .Development-Methodologies-cardlayout{
     width: 100%;
 
   }
-  .section6card1{
+  .Development-Methodologies-card1{
     width: 100%;
     background-color: rgba(44, 160, 104, 0.7); 
     background-image: url('./webdev\ image/1000_F_303094737_NRtiCqDWlk6iNRdJGxE8DTyqwaBKfoxs 2.png'); 
@@ -888,7 +953,7 @@ text-align: left;
     border-radius: 20px;
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
   }
-  .section6card2{
+  .Development-Methodologies-card2{
     width: 100%;
     background-color: rgba(44, 160, 104, 0.7); /* Set background color with opacity */
     background-image: url('./webdev\ image/GettyImages-157859687_super 1.png'); /* Set background image */
@@ -899,7 +964,7 @@ text-align: left;
     border-radius: 20px;
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transition for box shadow */
   }
-  .section6card3{
+  .Development-Methodologies-card3{
     width: 100%;
     background-color: rgba(44, 160, 104, 0.7); /* Set background color with opacity */
     background-image: url('./webdev\ image/close-up-person-doing-online-shopping 1.png'); /* Set background image */
@@ -953,16 +1018,16 @@ text-align: left;
     padding: 10px;
 }
 
-.section6card1:hover,
-.section6card2:hover,
-.section6card3:hover {
+.Development-Methodologies-card1:hover,
+.Development-Methodologies-card2:hover,
+.Development-Methodologies-card3:hover {
     background-color: #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
 }
 
-.section6card1:hover .agiledropdown,
-.section6card2:hover .agiledropdown,
-.section6card3:hover .agiledropdown {
+.Development-Methodologies-card1:hover .agiledropdown,
+.Development-Methodologies-card2:hover .agiledropdown,
+.Development-Methodologies-card3:hover .agiledropdown {
     transform: rotate(180deg);
     border-radius: 15px;
 }
@@ -977,9 +1042,9 @@ text-align: left;
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 /* CSS Changes */
-.section6card1:hover .card1agile,
-.section6card2:hover .card1agile,
-.section6card3:hover .card1agile {
+.Development-Methodologies-card1:hover .card1agile,
+.Development-Methodologies-card2:hover .card1agile,
+.Development-Methodologies-card3:hover .card1agile {
     color: #000; /* Change text color to black */
 }
 
@@ -993,9 +1058,9 @@ text-align: left;
 /* Add this CSS for mobile devices */
 /* CSS Changes */
 @media screen and (max-width: 767px) {
-    .section6card1,
-    .section6card2,
-    .section6card3 {
+    .Development-Methodologies-card1,
+    .Development-Methodologies-card2,
+    .Development-Methodologies-card3 {
         background-image: none !important; 
         background-color: transparent !important;
         border: 1px solid #D9D9D9;
@@ -1004,7 +1069,52 @@ text-align: left;
         width: 100%;
     }
   
-    .cardslaayout{
+    .Development-Methodologies-link{
+      font-family: 'Source Sans Pro',sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 22px;
+      text-align: left;
+      width: 100%;
+      color: rgba(44, 160, 104, 1);
+      display: none;
+    }
+    .methodologiesline{
+      width: 182px;
+      gap: 0px;
+      border: 2px;
+      opacity: 0px;
+      border: 2px solid rgba(44, 160, 104, 1);
+      margin-top: -10px;
+      display: none;
+    }
+    .Development-Methodologies-bottom{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .Development-Methodologies-link1{
+      font-family: 'Source Sans Pro',sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 22px;
+      text-align: center;
+      width: 100%;
+      color: rgba(44, 160, 104, 1);
+      display: block;
+      
+    }
+    .methodologiesline1{
+      width: 200px;
+      gap: 0px;
+      border: 2px;
+      opacity: 0px;
+      border: 2px solid rgba(44, 160, 104, 1);
+      margin-top: -10px;
+      display: block;
+    }
+    
+    .Development-Methodologies-cardlayout{
       width: 100%;
       margin: auto;
       margin-top: 20px;
@@ -1028,35 +1138,34 @@ text-align: left;
         display: block !important; /* Show the hidden elements */
     }
 
-    .section6layout {
-        padding-bottom: 20px; /* Add padding to bottom of section6layout */
+    .Development-Methodologies-maindiv {
+        padding-bottom: 20px; /* Add padding to bottom of Development-Methodologies-maindiv */
         width: 100%;
     }
-    .section6col1{
+    .Development-Methodologies-col1{
         width: 100%;
         margin-top: 0;
     }
-    .section6header{
+    .Development-Methodologies-header{
         width: 100%;
     }
-    .section6heading{
+    .Development-Methodologies-heading {
         font-size: 32px;
         font-weight: 600;
         line-height: 40.22px;
         text-align: left;
     }
-    .section6heading span{
+    .Development-Methodologies-heading  span{
         font-size: 32px;
         font-weight: 600;
         line-height: 40.22px;
         text-align: left;
     }
-    .section6heading img{
+    .Development-Methodologies-heading  img{
         width: 28px;
     }
 
 }
-
 /*section 7=============================================*/
 .section7layout{
     width: 100%;
@@ -1382,6 +1491,9 @@ text-align: left;
   .section7header{
     width: 100%;
   }
+  .mainrowsection7{
+    margin-top: 15px;
+  }
   .section7heading{
     width: 100%;
     font-size: 32px;
@@ -1421,6 +1533,7 @@ text-align: left;
     font-weight: 400;
     line-height: 20px;
     text-align: left;
+    margin-top: 0;
   }
   .section7col2layout1{
     margin-top: 0;
@@ -1817,9 +1930,25 @@ text-align: left;
   .mobile_session_icon_top {
     margin: 50px 0px;
   }
+
   .mobile_session_icon_bottom {
     display: none;
     margin: 50px 0px;
+  }
+  .session11_card h6{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.11px;
+    text-align: left;
+  }
+  .session11_card p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.14px;
+    text-align: left;
+    width: 100%;
   }
   .card-container {
     display: flex;
@@ -1841,6 +1970,9 @@ text-align: left;
     display: none;
   }
   @media only screen and (max-width: 768px){
+    .about_session11_maindiv{
+      margin-top: 0;
+    }
     .mobile_session_row{
       padding: 30px 0px ;
     }
@@ -1853,6 +1985,20 @@ text-align: left;
       height: 2px;
       border-radius: 8px;
       background-color: #2CA068;
+    }
+    .session11_card h6{
+      font-family: 'Source Sans Pro',sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20.11px;
+      text-align: left;
+    }
+    .session11_card p{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 23.15px;
+      text-align: left;
+      width: 100%;
     }
     .mobile_session_row .col-md-4 h1{
       font-size: 32px;
@@ -1879,12 +2025,14 @@ text-align: left;
       flex: 0 0 auto;
       margin-right: 30px; 
     }
-    /* .mobile_session_icon_top {
+    .mobile_session_icon_top {
       display: none;
-    } */
-    .mobile_session_icon_bottom {
-      display: inline-block;
     }
+    .mobile_session_icon_bottom {
+      display: block;
+    }
+    
+    
   }
 
   /*section10===================================================*/
@@ -2260,8 +2408,12 @@ text-align: left;
   }
   .about-session__title{
     margin-top: 55px;
+    font-family: 'Source Sans Pro',sans-serif;
     font-size: 24px;
     font-weight: 600;
+    line-height: 35.2px;
+    text-align: left;
+    width: 100%;
   }
   
   @media only screen and (max-width: 768px) {
@@ -2301,6 +2453,7 @@ text-align: left;
     }
     .about-session__title{
       font-size: 20px;
+      
     }
     .copysymbol {
   margin-top: 20px;
@@ -2751,21 +2904,21 @@ text-align: left;
      
     }*/
   
-  /*========================*/
+  /*===section 3=====================*/
 
 
-  .Web_App_Development_Service_section3layout{
+  .Our-Developers-maindiv{
     width: 100%;
     height: auto;
     margin-top: 108px;
   }
   
-  .section3firstcollayout{
+  .Our-Developers-firstcollayout{
     width: 100%;
     height: auto;
     margin-top: 92px;
   }
-  .section3firstcolheading{
+  .Our-Developers-heading{
     width: 100%;
     height: 318px;
     gap: 0px;
@@ -2777,21 +2930,24 @@ text-align: left;
     text-align: left;
     color: rgba(0, 0, 0, 1);
   }
-  .secondcollayout{
+  .Our-Developers-secondcollayout{
     background: rgba(22, 22, 22, 1);
     border-radius: 12px;
     height: auto;
     margin-left: 90px !important;
     width: 670px;
   }
-  .section3firstcolheading span{
+  .Our-Developers-heading span{
     font-size: 48px;
     font-weight: 700;
     line-height: 68px;
     text-align: left;
     color: rgba(44, 160, 104, 1);
   }
-  .section3firstcollink{
+  .Our-Developers-heading img{
+    display: none;
+  }
+  .Our-Developers-firstcollink{
     width: 100%;
     height: auto;
     margin-top: 45px;
@@ -2804,11 +2960,11 @@ text-align: left;
     line-height: 22px;
     text-align: left;
   }
-  .section3firstcollink img{
+  .Our-Developers-firstcollink img{
     width: 20px;
     height: 20px;
   }
-  .section3firstcollinkline{
+.Our-Developers-firstcollinkline{    
     width: 300px;
     height: 0px;
     gap: 0px;
@@ -2817,11 +2973,11 @@ text-align: left;
     border: 2px solid rgba(44, 160, 104, 1)
   }
   
-  .section3col2firstrow .col-md-2 {
+  .Our-Developers-col2firstrow .col-md-2 {
     width: 20%; /* Each column takes up 20% of the row */
   }
   
-  .section3col2firstrow .col-md-2 img {
+  .Our-Developers-col2firstrow .col-md-2 img {
     width: 100%;
     height: auto;
     gap: 0px;
@@ -2850,17 +3006,17 @@ text-align: left;
   .image15 {
     width: 100px !important;
   }
-  .section3firstcollink1{
+  .Our-Developers-firstcollink1{
   display: none;
   
   }
-  .section3firstcollinkline1{
+  .Our-Developers-firstcollinkline1{
   display: none;
   }
   
   
   @media (max-width: 728px) {
-    .section3firstcolheading{
+    .Our-Developers-heading{
   
   font-size: 32px;
   font-weight: 600;
@@ -2868,7 +3024,7 @@ text-align: left;
   text-align: left;
   
     } 
-    .section3firstcolheading span{
+    .Our-Developers-heading span{
       font-size: 32px;
       font-weight: 700;
       line-height: 40.22px;
@@ -2876,18 +3032,23 @@ text-align: left;
       
       color: rgba(44, 160, 104, 1);
     }
-    .Web_App_Development_Service_section3layout{
+    .Our-Developers-heading img{
+      display: inline-block;
+      width: 28px;
+      height: 3px;
+    }
+    .Our-Developers-maindiv{
      
       margin-top: 8px !important;
     }
-    .section3firstcollayout{
+    .Our-Developers-firstcollayout{
      
       margin-top: 40px !important;
     }
     .section3firstcollink{
   margin-top: -100px !important;
     }
-    .secondcollayout{
+    .Our-Developers-secondcollayout{
       margin-top: -200px !important;
       margin-left: 0px !important;
     }
@@ -2900,10 +3061,10 @@ text-align: left;
   .section3firstcollink{
     display: none;
   }
-  .section3firstcollinkline{
+.Our-Developers-firstcollinkline{
     display: none;
   }
-  .section3firstcollink1{
+  .Our-Developers-firstcollink1{
     margin-top: 20px !important;
   font-size: 18px;
   font-weight: 600;
@@ -2912,7 +3073,7 @@ text-align: left;
   color: rgba(44, 160, 104, 1);
   
   }
-  .section3firstcollinkline1{
+  .Our-Developers-firstcollinkline1{
     width: 255px !important;
     height: 0px;
     gap: 0px;
@@ -2921,26 +3082,30 @@ text-align: left;
     border: 2px solid rgba(44, 160, 104, 1);
   
   }
-  .section3firstcollink1_check{
+  .Our-Developers-firstcollink1_check{
     display: flex;
     flex-direction: column;
     align-items: center;
   
   }
-  .section3firstcollink1{
+  .Our-Developers-firstcollink{
+    display: none;
+  }
+
+  .Our-Developers-firstcollink1{
     display: block;
   }
-  .section3firstcollinkline1{
+  .Our-Developers-firstcollinkline1{
     display: block;
   }
-  .section3firstcolheading{
+  .Our-Developers-heading{
   font-size: 32px;
   font-weight: 600;
   line-height: 40.22px;
   text-align: left;
   
   }
-  .section3firstcolheading span{
+  .Our-Developers-heading span{
   font-size: 32px;
   font-weight: 700;
   line-height: 40.22px;
